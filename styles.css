@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo Narrow", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #8ace00;
+  color: #18191a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  color: #18191a;
+  font-size: 200px;
+  font-weight: normal;
+  filter: blur(2px);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+h2 {
+  font-size: 70px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+p {
+  padding-top: 0;
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  height: 380px;
+}
+
+blockquote {
+  font-size: 30px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+a {
+  color: #0c0c0c;
+}
+
+a:hover {
+  color: fuchsia;
+}
+
+img {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+.brat img {
+  display: block;
+  margin: auto;
+  height: 10%;
+  width: auto;
+  max-width: 1000px;
+}
+
+.charli img {
+  padding-top: 20px;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.tracklist {
+  text-align: center;
+}
+
+.tracklist ul li {
+  list-style-type: none;
+}
+
+.charli-site {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.email {
+  font-size: 30px;
+  color: white;
+  width: 100%;
+  height: 50%;
+  padding-top: 30px;
+  background-color: rgba(10, 10, 10, 0.3);
+  border-radius: 10px;
+}
+
+.email a {
+  color: white;
+}
+
+.email a:hover {
+  color: fuchsia;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulsing-text {
+  display: inline-block;
+  animation: pulse 2s infinite;
+  color: rgba(40, 40, 40, 0.8);
+}
