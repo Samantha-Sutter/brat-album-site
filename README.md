@@ -1,6 +1,4 @@
-# Charli XCX - Brat Album Fan Page
-
-![Charli XCX - brat Album Fan Page]()
+# Charli XCX - brat Album Fan Page
 
 A simple fan page dedicated to Charli XCX's album "brat," featuring a tracklist, album imagery, and a pulsing text animation. Built with HTML and CSS.
 
